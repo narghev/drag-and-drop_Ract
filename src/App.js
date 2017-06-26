@@ -24,9 +24,6 @@ class App extends Component {
 
     changeColumn = (obj, newColumn) => {
 	const {x,y} = obj;
-	if (x === newColumn){
-	    return;
-	}
 	let itemsSnap = this.state.items;
 	const movedObj = itemsSnap[x][y];
 	itemsSnap[newColumn].push(movedObj);
