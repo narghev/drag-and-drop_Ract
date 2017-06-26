@@ -1,0 +1,16 @@
+.fields {
+    dispay: flex;
+    flex-direction: row;
+}
+
+.field {
+    width: 150px;
+    height: 100vh;
+    display: inline-block;
+    border-right: 1px solid black;
+}
+
+.elem {
+    width: 150px;
+    height: 30px;
+}
